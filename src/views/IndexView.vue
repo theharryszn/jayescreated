@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import NavbarView from '@/components/NavbarView.vue'
-import FooterView from '@/components/FooterView.vue'
+import NavbarView from '../components/NavbarView.vue'
+import FooterView from '../components/FooterView.vue'
 </script>
 <template>
   <header
@@ -9,7 +9,7 @@ import FooterView from '@/components/FooterView.vue'
   >
     <NavbarView />
     <img
-      src="@/assets/images/Header Background 1.png"
+      src="../assets/images/Beatfrom waitlist mockup.jpg"
       alt=""
       class="absolute top-0 h-full w-full object-cover left-0 z-[-1] opacity-50"
     />
@@ -67,7 +67,7 @@ import FooterView from '@/components/FooterView.vue'
         </span>
       </a>
       <a
-        href="http://"
+        href="http://abidemiharr.vercel.app"
         target="_blank"
         rel="noopener noreferrer"
         class="bg-[#EFEFF1] p-2 rounded-xl text-sm px-6 flex gap-2 items-center"
@@ -100,7 +100,7 @@ import FooterView from '@/components/FooterView.vue'
       <div class="grid grid-cols-2 gap-10 gap-y-20">
         <div class="flex flex-col gap-4">
           <img
-            src="@/assets/images/foodiee mockup.jpg"
+            src="../assets/images/foodiee mockup.jpg"
             class="aspect-[148/105] bg-[#EFEFF1] object-cover"
           />
           <div class="flex flex-col gap-2">
@@ -112,7 +112,7 @@ import FooterView from '@/components/FooterView.vue'
         </div>
         <div class="flex flex-col gap-4">
           <img
-            src="@/assets/images/Beatfrom waitlist mockup.jpg"
+            src="../assets/images/Beatfrom waitlist mockup.jpg"
             class="aspect-[148/105] bg-[#EFEFF1] object-cover"
           />
           <div class="flex flex-col gap-2">
@@ -124,7 +124,7 @@ import FooterView from '@/components/FooterView.vue'
         </div>
         <div class="flex flex-col gap-4">
           <img
-            src="@/assets/images/Pouch mockup.jpg"
+            src="../assets/images/Pouch mockup.jpg"
             class="aspect-[148/105] bg-[#EFEFF1] object-cover"
           />
           <div class="flex flex-col gap-2">
@@ -136,7 +136,7 @@ import FooterView from '@/components/FooterView.vue'
         </div>
         <div class="flex flex-col gap-4">
           <img
-            src="@/assets/images/poch mobile.jpg"
+            src="../assets/images/poch mobile.jpg"
             class="aspect-[148/105] bg-[#EFEFF1] object-cover"
           />
           <div class="flex flex-col gap-2">
