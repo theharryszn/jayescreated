@@ -28,7 +28,7 @@ import foodie from '@/assets/images/foodiee mockup.jpg'
       prioritize speed without compromising quality and take pride in my work. Currently seeking
       freelance opportunities.
     </div>
-    <div class="flex gap-5">
+    <div class="flex gap-2 md:gap-5 flex-wrap">
       <a
         href="https://twitter.com/jayescreated"
         target="_blank"
