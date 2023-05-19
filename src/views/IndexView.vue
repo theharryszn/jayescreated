@@ -1,6 +1,11 @@
 <script lang="ts" setup>
 import NavbarView from '@/components/NavbarView.vue'
 import FooterView from '@/components/FooterView.vue'
+import headerBg from '@/assets/images/Header Background 1.png'
+import pouchWebsite from '@/assets/images/Pouch mockup.jpg'
+import pouchApp from '@/assets/images/poch mobile.jpg'
+import beatfro from '@/assets/images/Beatfrom waitlist mockup.jpg'
+import foodie from '@/assets/images/foodiee mockup.jpg'
 </script>
 <template>
   <header
@@ -9,7 +14,7 @@ import FooterView from '@/components/FooterView.vue'
   >
     <NavbarView />
     <img
-      src="@/assets/images/Header Background 1.png"
+      :src="headerBg"
       alt=""
       class="absolute top-0 h-full w-full object-cover left-0 z-[-1] opacity-50"
     />
@@ -99,10 +104,7 @@ import FooterView from '@/components/FooterView.vue'
       </div>
       <div class="grid grid-cols-2 gap-10 gap-y-20">
         <div class="flex flex-col gap-4">
-          <img
-            src="@/assets/images/foodiee mockup.jpg"
-            class="aspect-[148/105] bg-[#EFEFF1] object-cover"
-          />
+          <img :src="foodie" class="aspect-[148/105] bg-[#EFEFF1] object-cover" />
           <div class="flex flex-col gap-2">
             <div class="text-2xl font-medium">chopBeta</div>
             <p class="text-[#595959]">
@@ -111,10 +113,7 @@ import FooterView from '@/components/FooterView.vue'
           </div>
         </div>
         <div class="flex flex-col gap-4">
-          <img
-            src="@/assets/images/Beatfrom waitlist mockup.jpg"
-            class="aspect-[148/105] bg-[#EFEFF1] object-cover"
-          />
+          <img :src="beatfro" class="aspect-[148/105] bg-[#EFEFF1] object-cover" />
           <div class="flex flex-col gap-2">
             <div class="text-2xl font-medium">Beatfro waitlist</div>
             <p class="text-[#595959]">
@@ -123,10 +122,7 @@ import FooterView from '@/components/FooterView.vue'
           </div>
         </div>
         <div class="flex flex-col gap-4">
-          <img
-            src="@/assets/images/Pouch mockup.jpg"
-            class="aspect-[148/105] bg-[#EFEFF1] object-cover"
-          />
+          <img :src="pouchWebsite" class="aspect-[148/105] bg-[#EFEFF1] object-cover" />
           <div class="flex flex-col gap-2">
             <div class="text-2xl font-medium">Pouch website</div>
             <p class="text-[#595959]">
@@ -135,10 +131,7 @@ import FooterView from '@/components/FooterView.vue'
           </div>
         </div>
         <div class="flex flex-col gap-4">
-          <img
-            src="@/assets/images/poch mobile.jpg"
-            class="aspect-[148/105] bg-[#EFEFF1] object-cover"
-          />
+          <img :src="pouchApp" class="aspect-[148/105] bg-[#EFEFF1] object-cover" />
           <div class="flex flex-col gap-2">
             <div class="text-2xl font-medium">Pouch USDT savings app</div>
             <p class="text-[#595959]">
