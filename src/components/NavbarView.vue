@@ -28,7 +28,7 @@ onBeforeRouteLeave(() => {
   >
     <RouterLink to="/" class="">jayescreated</RouterLink>
     <div class="items-center gap-10 hidden md:flex">
-      <RouterLink to="/resume" class="bg-white p-3 rounded-full px-6 cursor-pointer link-pill"
+      <!-- <RouterLink to="/resume" class="bg-white p-3 rounded-full px-6 cursor-pointer link-pill"
         >Resume</RouterLink
       >
       <RouterLink to="/about" class="bg-white p-3 rounded-full px-6 cursor-pointer link-pill"
@@ -36,7 +36,7 @@ onBeforeRouteLeave(() => {
       >
       <RouterLink to="/blog" class="bg-white p-3 rounded-full px-6 cursor-pointer link-pill"
         >Blog</RouterLink
-      >
+      > -->
     </div>
     <div class="flex md:hidden" @click="openMenu">MENU</div>
   </nav>
