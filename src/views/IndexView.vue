@@ -10,7 +10,7 @@ import foodie from '@/assets/images/foodiee mockup.jpg'
 <template>
   <header
     data-scroll-section
-    class="h-screen p-40 flex flex-col justify-center gap-10 header relative"
+    class="h-screen px-10 md:p-40 flex flex-col justify-center gap-10 header relative"
   >
     <NavbarView />
     <img
@@ -95,14 +95,14 @@ import foodie from '@/assets/images/foodiee mockup.jpg'
     </div>
   </header>
   <main data-scroll-section>
-    <div class="px-40 flex flex-col gap-16 pb-40 pt-24">
+    <div class="px-10 md:px-40 flex flex-col gap-16 pb-40 pt-24">
       <div class="flex flex-col gap-2">
         <h3 class="text-3xl font-medium">Featured Projects</h3>
         <p class="text-[#595959]">
           Here are some of the projects i've worked on personally and professionally
         </p>
       </div>
-      <div class="grid grid-cols-2 gap-10 gap-y-20">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 gap-y-20">
         <div class="flex flex-col gap-4">
           <img :src="foodie" class="aspect-[148/105] bg-[#EFEFF1] object-cover" />
           <div class="flex flex-col gap-2">
@@ -141,7 +141,7 @@ import foodie from '@/assets/images/foodiee mockup.jpg'
         </div>
       </div>
     </div>
-    <div class="px-40 flex flex-col gap-16 pb-40">
+    <div class="px-10 md:px-40 flex flex-col gap-16 pb-40">
       <div class="flex flex-col gap-2">
         <h3 class="text-3xl font-medium">My Spotify</h3>
         <p class="text-[#595959]">
@@ -149,7 +149,7 @@ import foodie from '@/assets/images/foodiee mockup.jpg'
           most-used, apps 😎. I'd love to share some of my favorite playlists with you.
         </p>
       </div>
-      <div class="grid grid-cols-3 gap-10 gap-y-20">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 gap-y-20">
         <iframe
           style="border-radius: 12px"
           src="https://open.spotify.com/embed/playlist/0cFZPfKWE9kZAAOHgLueTm?utm_source=generator&theme=0"

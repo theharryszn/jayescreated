@@ -2,7 +2,7 @@
 <template>
   <footer
     data-scroll-section
-    class="px-5 md:px-40 pb-10 bg-[#1C1D20] text-white flex flex-col gap-4"
+    class="px-10 md:px-40 pb-10 bg-[#1C1D20] text-white flex flex-col gap-4"
   >
     <div class="py-40 flex flex-col gap-4">
       <div class="font-bold text-4xl">

@@ -26,7 +26,7 @@ onBeforeRouteLeave(() => {
     data-scroll-fixed
     class="px-5 md:px-10 py-6 flex items-center gap-5 justify-between text-sm absolute left-0 top-0 w-full"
   >
-    <RouterLink to="/" class="">jayescreated</RouterLink>
+    <!-- <RouterLink to="/" class="">jayescreated</RouterLink> -->
     <div class="items-center gap-10 hidden md:flex">
       <!-- <RouterLink to="/resume" class="bg-white p-3 rounded-full px-6 cursor-pointer link-pill"
         >Resume</RouterLink
@@ -38,7 +38,7 @@ onBeforeRouteLeave(() => {
         >Blog</RouterLink
       > -->
     </div>
-    <div class="flex md:hidden" @click="openMenu">MENU</div>
+    <!-- <div class="flex md:hidden" @click="openMenu">MENU</div> -->
   </nav>
   <div
     id="mobile-menu"
