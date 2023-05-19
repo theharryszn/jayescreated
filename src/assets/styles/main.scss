@@ -1,0 +1,25 @@
+@import 'base';
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.cursor {
+  display: none;
+}
+
+@media (hover: hover) {
+  .cursor {
+    display: flex;
+  }
+}
+
+.blinker {
+  animation: blinker 0.5s linear infinite;
+}
+
+.link-pill {
+  box-shadow: 5px 5px 30px #d9d9d930;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Gt Walsheim';
+  src: url('../fonts/GT\ Walsheim\ Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gt Walsheim';
+  src: url('../fonts/GT\ Walsheim\ Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Gt Walsheim';
+  src: url('../fonts/GT\ Walsheim\ Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Gt Walsheim';
+  src: url('../fonts/GT\ Walsheim\ Bold.ttf');
+  font-weight: 700;
+}
+
+body {
+  font-family: 'Gt Walsheim', sans-serif;
+}
