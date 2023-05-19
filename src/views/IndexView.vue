@@ -9,7 +9,7 @@ import FooterView from '../components/FooterView.vue'
   >
     <NavbarView />
     <img
-      src="../assets/images/Beatfrom waitlist mockup.jpg"
+      src="../assets/images/Header Background 1.png"
       alt=""
       class="absolute top-0 h-full w-full object-cover left-0 z-[-1] opacity-50"
     />
@@ -25,7 +25,7 @@ import FooterView from '../components/FooterView.vue'
     </div>
     <div class="flex gap-5">
       <a
-        href="http://"
+        href="https://twitter.com/jayescreated"
         target="_blank"
         rel="noopener noreferrer"
         class="bg-[#EFEFF1] p-2 rounded-xl text-sm px-6 flex gap-2 items-center"
@@ -46,7 +46,7 @@ import FooterView from '../components/FooterView.vue'
         </span>
       </a>
       <a
-        href="http://"
+        href="https://dribbble.com/jayeshumbe"
         target="_blank"
         rel="noopener noreferrer"
         class="bg-[#EFEFF1] p-2 rounded-xl text-sm px-6 flex gap-2 items-center"
