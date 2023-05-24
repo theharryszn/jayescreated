@@ -36,7 +36,7 @@
       <div>
         Developed By
         <a
-          href="http://abidemiharr.vercel.app"
+          href="http://abidemiharry.vercel.app"
           class="hover:text-white transition"
           target="_blank"
           rel="noopener noreferrer"

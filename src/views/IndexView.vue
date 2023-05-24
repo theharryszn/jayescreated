@@ -72,7 +72,7 @@ import foodie from '@/assets/images/foodiee mockup.jpg'
         </span>
       </a>
       <a
-        href="http://abidemiharr.vercel.app"
+        href="mailto:jayeshumbe@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         class="bg-[#EFEFF1] p-2 rounded-xl text-sm px-6 flex gap-2 items-center"
@@ -152,7 +152,7 @@ import foodie from '@/assets/images/foodiee mockup.jpg'
       <div class="grid grid-cols-1 md:grid-cols-3 gap-10 gap-y-20">
         <iframe
           style="border-radius: 12px"
-          src="https://open.spotify.com/embed/playlist/0cFZPfKWE9kZAAOHgLueTm?utm_source=generator&theme=0"
+          src="https://open.spotify.com/embed/playlist/5AoCSM1Ji4K7qIykyPRhVt?utm_source=generator"
           width="100%"
           height="352"
           frameBorder="0"
@@ -170,7 +170,7 @@ import foodie from '@/assets/images/foodiee mockup.jpg'
         ></iframe>
         <iframe
           style="border-radius: 12px"
-          src="https://open.spotify.com/embed/playlist/7bYHhvq6Zo0HQ4CKgh898u?utm_source=generator"
+          src="https://open.spotify.com/embed/playlist/4WuYnGsijDo438YVcbFIfV?utm_source=generator"
           width="100%"
           height="352"
           frameBorder="0"
