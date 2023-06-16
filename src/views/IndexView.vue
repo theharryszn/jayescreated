@@ -104,7 +104,7 @@ import foodie from '@/assets/images/foodiee mockup.jpg'
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10 gap-y-20">
         <div class="flex flex-col gap-4">
-          <img :src="foodie" class="aspect-[148/105] bg-[#EFEFF1] object-cover" />
+          <img :src="foodie" class="aspect-[148/105] bg-[#EFEFF1] object-cover rounded-2xl" />
           <div class="flex flex-col gap-2">
             <div class="text-2xl font-medium">chopBeta</div>
             <p class="text-[#595959]">
@@ -113,7 +113,7 @@ import foodie from '@/assets/images/foodiee mockup.jpg'
           </div>
         </div>
         <div class="flex flex-col gap-4">
-          <img :src="beatfro" class="aspect-[148/105] bg-[#EFEFF1] object-cover" />
+          <img :src="beatfro" class="aspect-[148/105] bg-[#EFEFF1] object-cover rounded-2xl" />
           <div class="flex flex-col gap-2">
             <div class="text-2xl font-medium">Beatfro waitlist</div>
             <p class="text-[#595959]">
@@ -122,7 +122,7 @@ import foodie from '@/assets/images/foodiee mockup.jpg'
           </div>
         </div>
         <div class="flex flex-col gap-4">
-          <img :src="pouchWebsite" class="aspect-[148/105] bg-[#EFEFF1] object-cover" />
+          <img :src="pouchWebsite" class="aspect-[148/105] bg-[#EFEFF1] object-cover rounded-2xl" />
           <div class="flex flex-col gap-2">
             <div class="text-2xl font-medium">Pouch website</div>
             <p class="text-[#595959]">
@@ -131,7 +131,7 @@ import foodie from '@/assets/images/foodiee mockup.jpg'
           </div>
         </div>
         <div class="flex flex-col gap-4">
-          <img :src="pouchApp" class="aspect-[148/105] bg-[#EFEFF1] object-cover" />
+          <img :src="pouchApp" class="aspect-[148/105] bg-[#EFEFF1] object-cover rounded-2xl" />
           <div class="flex flex-col gap-2">
             <div class="text-2xl font-medium">Pouch USDT savings app</div>
             <p class="text-[#595959]">
