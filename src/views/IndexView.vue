@@ -13,11 +13,7 @@ import foodie from '@/assets/images/foodiee mockup.jpg'
     class="h-screen px-10 md:p-40 flex flex-col justify-center gap-10 header relative"
   >
     <NavbarView />
-    <img
-      :src="headerBg"
-      alt=""
-      class="absolute top-0 h-full w-full object-cover left-0 z-[-1] opacity-50"
-    />
+    <img :src="headerBg" alt="" class="absolute top-0 h-full w-full object-cover left-0 z-[-1]" />
     <div class="font-bold text-5xl">
       Hello, <br />
       I'm Jason.
